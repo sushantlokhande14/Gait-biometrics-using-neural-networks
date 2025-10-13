@@ -69,5 +69,5 @@ gait-biometrics-using-neural-networks/
 │   ├── X_pca.npy
 │   ├── y_labels.npy
 │
-├── sample_data/            # raw accelerometer and gyroscope CSVs (optional)
+└── sample_data/            # raw accelerometer and gyroscope CSVs (optional)
 
