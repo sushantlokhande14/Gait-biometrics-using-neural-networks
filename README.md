@@ -48,26 +48,7 @@ Both models were trained and tested for:
 | **FNN** | Verification | 0.98 | 0.99 | 0.03 | Excellent separation |
 | **LSTM** | Verification | 0.97 | 0.99 | 0.02 | Slightly higher FRR |
 
-*(Plots for accuracy, confusion matrices, and ROC curves are available in the `results/plots/` folder.)*
 
----
 
-## 🧩 Repository Structure
 
-gait-biometrics-using-neural-networks/
-│
-├── notebooks/
-│   ├── 1_data_preprocessing.ipynb
-│   ├── 2_identification_FNN.ipynb
-│   ├── 3_identification_LSTM.ipynb
-│   ├── 4_verification_FNN.ipynb
-│   ├── 5_verification_LSTM.ipynb
-│
-├── processed_data/
-│   ├── user_2_windows.npy
-│   ├── ...
-│   ├── X_pca.npy
-│   ├── y_labels.npy
-│
-└── sample_data/            # raw accelerometer and gyroscope CSVs (optional)
 
